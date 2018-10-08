@@ -88,7 +88,6 @@ class Application {
     var Icon = new Gio.ThemedIcon ({name: "face-smile-big"});
     Notification.set_icon (Icon);
     this.application.send_notification (null, Notification);
-    Gtk.main_quit();
   }
 
   displayCategory(emojiSet) {
